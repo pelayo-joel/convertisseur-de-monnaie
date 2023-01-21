@@ -83,8 +83,11 @@ def SetUpFrame():
 
 
 def main():
-    SetUpFrame()
-    mainWindow.mainloop()
+    try:
+        SetUpFrame()
+        mainWindow.mainloop()
+    except:
+        print("Program closed")
 
 
 
