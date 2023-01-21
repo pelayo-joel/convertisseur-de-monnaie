@@ -7,6 +7,7 @@ from tkinter import ttk
 mainWindow = Tk()
 mainWindow.geometry("440x200")
 mainWindow.title("Currency Change")
+mainWindow.resizable(height=False, width=False)
 
 #Dict of available currency, changes when you're adding a new one
 currencies = {"EUR":1.0, "USD":0.92, "JPY":0.0071, "CNY":0.14}
